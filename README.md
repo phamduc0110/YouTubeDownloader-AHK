@@ -22,9 +22,8 @@ AutoHotkey
 ## Installing
 [Download AutoHotkey](https://www.autohotkey.com/download/ahk-install.exe)
 
-After installing AutoHotkey on your machine 
+After installing AutoHotkey on your machine follow these steps -
 
-You will need to 
 
 
  **STEP 1 :**
@@ -38,21 +37,28 @@ You will need to
   Copy the code and paste it into the new script and save it as YouTubeDL.ahk
 ```
 ## Running the Script
+
+**STEP 1 :**
 ```
-STEP 1:
   Double click on the YouTubeDL.ahk
+  ```
  
-STEP 2:
+**STEP 2 :**
+```
   Enter the video URL to download 
   Example: https://www.youtube.com/watch?v=VORHQRG3Q_g
+  ```
   
-STEP 3:
+**STEP 3:**
+```
   After Metadata is imported 
   Select the path to save the video.
   Example: ‪E:\Videos\Video Downloader
   (If you don't select any folder, the video will be saved to Desktop)
+  ```
  
-STEP 4:  
+**STEP 4:** 
+```
   Check the download progress on the opened command prompt window.
   ```
 ### Future Scope

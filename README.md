@@ -26,12 +26,15 @@ After installing AutoHotkey on your machine
 
 You will need to 
 
-```
- STEP 1:
+
+ **STEP 1 :**
+ ```
   Create a empty AHK script by right clicking anywhere on Desktop/Any Folder 
   after that select New > AutoHotkey Script
+ ```
 
-STEP 2:
+**STEP 2 :**
+```
   Copy the code and paste it into the new script and save it as YouTubeDL.ahk
 ```
 ## Running the Script

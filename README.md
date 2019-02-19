@@ -66,7 +66,8 @@ Adding a proper GUI to the application.
 
 ### Built With
 
-* [AutoHotkey](https://www.autohotkey.com/) - Language and Compiler Used
+* [AutoHotkey](https://www.autohotkey.com/) - Language Used
+* [SciTE4AHK](http://fincs.ahk4.net/scite4ahk/) - Editor Used
 
 ### Versioning
 

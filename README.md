@@ -11,16 +11,51 @@ This script will only work on a machine with 1080P (1920x1080) resolution and wi
 (Currently script only works untill 700 score is achieved because of the changes in color i.e Night Mode)
 ## Prerequisites
 ```
-You don't need this if you are using Executable. (YouTubeDL.exe)
+You don't need these if you are using executable, everything is included in the package. (YouTubeDL.exe)
 ```
 Things you need to install for this script to work 
 
 ```
-AutoHotkey
+⚫ AutoHotkey
+⚫ YouTubeDL.ahk (Main script)
+⚫ FFmpeg.exe
+⚫ youtube-dl.exe
 ```
 
 ## Installing
+
+ * **If you are using the executable just run it and skip below steps**
+ 
+ **STEP 1 :**
+  
+ Download AHK (Required for running the script)
+ 
 [Download AutoHotkey](https://www.autohotkey.com/download/ahk-install.exe)
+
+**STEP 2 :**
+
+  Download FFmpeg (Required for conversion and combining video and audio of video)
+  
+[Download FFmpeg](https://drive.google.com/uc?export=download&id=1jubMVolwxrZYRkVTspM9yyELNke-Mo85)
+
+  Download youtube-dl (Required for downloading videos and audio)
+  
+[Download youtube-dl](https://github.com/AkshayCraZzY/YouTubeDownloader-AHK/raw/master/youtube-dl.exe)
+
+**STEP 3:**
+ 
+  
+[Code For YouTubeDL.ahk](https://raw.githubusercontent.com/AkshayCraZzY/YouTubeDownloader-AHK/master/YouTubeDL.ahk)
+
+   ```
+  1. Create a empty AHK script by right clicking anywhere on Desktop/Any Folder 
+     after that select New > AutoHotkey Script
+  
+  2. Copy the code and paste it into the new script and save it as YouTubeDL.ahk
+  
+  3. Double click on the YouTubeDL.ahk
+  
+ ```
 
 After installing AutoHotkey on your machine follow these steps -
 

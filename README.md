@@ -13,7 +13,7 @@ Currently script only works for 720p or 1080p quality. (Whichever is available)
 
 ## Prerequisites
 ```
-You don't need these if you are using executable, everything is included in the package. (YouTubeDL.exe)
+You don't need these if you are using executable, everything is included in the package.(YouTubeDL.exe)
 ```
 Things you need to install for this script to work 
 

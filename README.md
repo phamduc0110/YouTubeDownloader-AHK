@@ -92,9 +92,11 @@ Copy all 3 files in same folder (Script won't work if these files are not in sam
   Check the download progress on the opened command prompt window.
   ```
 ### Future Scope
-Adding a proper GUI to the application.
-Adding option to download audio only (.mp3 format)
-Adding option to select quality of videos.
+* Adding a proper GUI to the application.
+
+* Adding option to download audio only (.mp3 format)
+
+* Adding option to select quality of videos.
 
 ### Built With
 

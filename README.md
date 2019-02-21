@@ -48,12 +48,12 @@ Things you need to install for this script to work
 [Code For YouTubeDL.ahk](https://raw.githubusercontent.com/AkshayCraZzY/YouTubeDownloader-AHK/master/YouTubeDL.ahk)
 
    ```
+  After installing AutoHotkey
+  
   1. Create a empty AHK script by right clicking anywhere on Desktop/Any Folder 
      after that select New > AutoHotkey Script
   
   2. Copy the code and paste it into the new script and save it as YouTubeDL.ahk
-  
-  3. Double click on the YouTubeDL.ahk
   
  ```
  
@@ -69,7 +69,7 @@ Copy all 3 files in same folder (Script won't work if these files are not in sam
 ## Running the Script
 
 **STEP 1 :**
-```
+ ```
   Double click on the YouTubeDL.ahk
   ```
  

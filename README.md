@@ -4,11 +4,13 @@ A small utility to download videos from YouTube in maximum quality available.
 <a href="https://i.giphy.com/media/mv7GMnolYgP5UH5pWV/source"><img src="https://i.giphy.com/media/mv7GMnolYgP5UH5pWV/source.gif" title="YouTube Video Downloader 0.1.0"/></a>
 
 ## Getting Started
-This is a AHK Script for downloading videos for downloading  
 
-This script will only work on a machine with 1080P (1920x1080) resolution and windows scalling set to 100%
+This is a AHK Script for downloading videos from YouTube.
 
-(Currently script only works untill 700 score is achieved because of the changes in color i.e Night Mode)
+It will first check if you are connected to Internet, if not script will terminate itself.
+
+Currently script only works for 720p or 1080p quality. (Whichever is available)
+
 ## Prerequisites
 ```
 You don't need these if you are using executable, everything is included in the package. (YouTubeDL.exe)
@@ -30,7 +32,7 @@ Things you need to install for this script to work
   
  Download AHK (Required for running the script)
  
-[Download AutoHotkey](https://www.autohotkey.com/download/ahk-install.exe)
+[Download AutoHotkey](https://www.autohotkey.com/download/ahk-install.exe) and install it.
 
 **STEP 2 :**
 
@@ -42,8 +44,6 @@ Things you need to install for this script to work
   
 [Download youtube-dl](https://github.com/AkshayCraZzY/YouTubeDownloader-AHK/raw/master/youtube-dl.exe)
 
-**STEP 3:**
- 
   
 [Code For YouTubeDL.ahk](https://raw.githubusercontent.com/AkshayCraZzY/YouTubeDownloader-AHK/master/YouTubeDL.ahk)
 
@@ -56,21 +56,16 @@ Things you need to install for this script to work
   3. Double click on the YouTubeDL.ahk
   
  ```
+ 
+ **STEP 3:**
 
-After installing AutoHotkey on your machine follow these steps -
+Copy all 3 files in same folder (Script won't work if these files are not in same folder)
+   ```
+   YouTubeDL.ahk
+   FFmpeg.exe
+   youtube-dl.exe
+   ```
 
-
-
- **STEP 1 :**
- ```
-  Create a empty AHK script by right clicking anywhere on Desktop/Any Folder 
-  after that select New > AutoHotkey Script
- ```
-
-**STEP 2 :**
-```
-  Copy the code and paste it into the new script and save it as YouTubeDL.ahk
-```
 ## Running the Script
 
 **STEP 1 :**
@@ -98,6 +93,8 @@ After installing AutoHotkey on your machine follow these steps -
   ```
 ### Future Scope
 Adding a proper GUI to the application.
+Adding option to download audio only (.mp3 format)
+Adding option to select quality of videos.
 
 ### Built With
 

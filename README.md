@@ -1,15 +1,16 @@
 # YouTubeDownloader-AHK
-A small utility to download videos from YouTube in maximum quality available.
+A lite application to download video and audio from YouTube in maximum quality available.
 
-<a href="https://i.giphy.com/media/mv7GMnolYgP5UH5pWV/source"><img src="https://i.giphy.com/media/mv7GMnolYgP5UH5pWV/source.gif" title="YouTube Video Downloader 0.1.0"/></a>
+<a href="https://i.giphy.com/media/ZgTz68lsuMQE7GvWdM/source"><img src="https://i.giphy.com/media/ZgTz68lsuMQE7GvWdM/source.gif" title="YouTube Video Downloader 0.1.2"/></a>
 
 ## Getting Started
 
-This is a AHK Script for downloading videos from YouTube.
+This is a AHK Script for downloading videos and music from YouTube.
 
 It will first check if you are connected to Internet, if not script will terminate itself.
 
-Currently script only works for 720p or 1080p quality. (Whichever is available)
+Currently script only works for 720p,1080p and mp3 (240kbps) for only.
+
 
 ## Prerequisites
 ```
@@ -75,8 +76,7 @@ Copy all 3 files in same folder (Script won't work if these files are not in sam
  
 **STEP 2 :**
 ```
-  Enter the video URL to download 
-  Example: https://www.youtube.com/watch?v=VORHQRG3Q_g
+  Enter the video URL to download and select between video/audio.
   ```
   
 **STEP 3:**
@@ -92,11 +92,13 @@ Copy all 3 files in same folder (Script won't work if these files are not in sam
   Check the download progress on the opened command prompt window.
   ```
 ### Future Scope
-* Adding a proper GUI to the application.
 
-* Adding option to download audio only (.mp3 format)
+* Adding option to select quality of video and audio.
 
-* Adding option to select quality of videos.
+* Adding GUI showing download progress.
+
+* Improving GUI of application.
+
 
 ### Built With
 
@@ -105,7 +107,7 @@ Copy all 3 files in same folder (Script won't work if these files are not in sam
 
 ### Versioning
 
-* Current Version 0.1.0
+* Current Version 0.1.2
 
 ### Authors
 

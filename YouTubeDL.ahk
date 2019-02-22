@@ -73,15 +73,51 @@ IsInternetConnected()
 }
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;MAIN ROUTINE
 
+
+Gui 1:Add, Text,,Enter the link of Youtube video :
+
+Gui 1:Add, Edit,  w115 y+10 vUrl w370,
+Gui, Add, Radio, vVid, Video (mp4/mkv)
+Gui, Add, Radio, vAud, Audio (mp3)
+Gui 1:Add, Button, x+58 yp-5 gstart Default w85 , Download
+Gui 1:Add, Button, x+10 yp gAbout w65 , About
+Gui 1:Add, Button, x+10 yp gQuiter w65,Quit
+Gui 1:Show
+;Gui,+AlwaysOnTop
+Return
+
+Quiter:
+GuiClose:
+Exit:
+	ExitApp
+About:
+	Gui, Submit,NoHide
+	Msgbox, ⚫ A lite application to download video or audio from YouTube.`n⚫ Made By Akshay Parakh`n⚫ https://akshaycrazzy.github.io/YouTubeDownloader-AHK`n⚫ Version - 0.1.2-beta
+	return
+
 start:
 {
-	InputBox, url, Enter Video Url 
+	Gui, Submit,NoHide
+	if url= 
+	{
+		MsgBox, Enter URL first!
+		return
+	}
+	if (vid=1)
+		type=1
+	else if(aud=1)
+		type=2
+	else 
+	{
+		MsgBox, Select format first!
+		return
+	}
 	FileDelete, %A_Temp%\get_video_info.txt
 	FileDelete, %A_Temp%\get_prog_info.txt
 	SplashTextOn, , , Getting Metadata...
 	RunWait %comspec% /c "youtube-dl.exe -F %url% > %A_Temp%\get_video_info.txt",, Hide
-	global 1080p:=137
-	global 720p:=136
+	global 1080p=137
+	global 720p=136
 	FHD:=0
 	HD:=0
 	SplashTextOff
@@ -93,43 +129,63 @@ start:
 		MsgBox, You didn't select a folder.`nVideo will be saved on Desktop.
 		OutputVar=%A_Desktop%
 	}
-	/*
-	Loop ,Read,%A_Temp%\get_video_info.txt
-	{
-		;tooltip %A_LoopReadLine%
-		form:=A_LoopReadLine
-		IfInString, A_LoopReadLine, mp4
-		{
-			FileAppend %form% `n,%A_Temp%\Format.txt
-		}
-	}
-	*/
-
 	Loop ,Read,%A_Temp%\get_video_info.txt
 	{
 		IfInString, A_LoopReadLine, %1080p%
-			FHD:=1
+			FHD=1
 		IfInString, A_LoopReadLine, %720p%
 			HD=1
 	}
+	if (type=1)
+		goto, video
+	else if(type=2)
+		goto, audio
 	
-	if(FHD=1)
+	video:
 	{
-		MsgBox, Full HD 1080p (1920x1080) video available!`nDownloading...
-		RunWait %comspec% /c "youtube-dl.exe -f %1080p%+bestaudio %url%"
-		FileMove, %A_ScriptDir%\*.mp4, %OutputVar%\*.*
-		MsgBox, VIDEO DOWNLOADED!`nYoutube Video Downloader Made By AKSHAY PARAKH.
+		
+		if(FHD=1)
+		{
+			MsgBox, 4,, Full HD 1080p (1920x1080) video available!`n(Press Yes to start downloading)
+			IfMsgBox Yes
+			{
+				RunWait %comspec% /c "youtube-dl.exe -f %1080p%+bestaudio %url%"
+				FileMove, %A_ScriptDir%\*.mp4, %OutputVar%\*.*
+				FileMove, %A_ScriptDir%\*.mkv, %OutputVar%\*.*
+				MsgBox, VIDEO DOWNLOADED!`nYoutube Downloader Made By AKSHAY PARAKH.
+				goto, exit
+			}
+			else
+				goto, exit
+		}
+		else if(HD=1)
+		{
+			MsgBox, 4,, HD 720p (1280x720) video available!`n(Press Yes to start downloading)
+			IfMsgBox Yes
+			{
+				RunWait %comspec% /c "youtube-dl.exe -f %720p%+bestaudio %url%"
+				FileMove, %A_ScriptDir%\*.mp4, %OutputVar%\*.*
+				FileMove, %A_ScriptDir%\*.mkv, %OutputVar%\*.*
+				MsgBox, VIDEO DOWNLOADED!`nYoutube Downloader Made By AKSHAY PARAKH.
+				goto, exit
+			}
+			else
+				goto, exit
+		}
+		return
 	}
-	
-	else if(HD=1)
+	audio:
 	{
-		MsgBox, HD 720p (1280x720) video available!`nDownloading...
-		RunWait %comspec% /c "youtube-dl.exe -f %720p%+bestaudio %url%"
-		FileMove, %A_ScriptDir%\*.mp4, %OutputVar%\*.*
-		MsgBox, VIDEO DOWNLOADED!`nYoutube Video Downloader Made By AKSHAY PARAKH.
+		MsgBox, 4,, Audio (mp3) available!`n(Press Yes to start downloading)
+		IfMsgBox Yes
+		{
+			RunWait %comspec% /c "youtube-dl.exe -f bestaudio -x --audio-format mp3 --audio-quality 0 %url%"
+			FileMove, %A_ScriptDir%\*.mp3, %OutputVar%\*.*
+			MsgBox, AUDIO DOWNLOADED!`nYoutube Downloader Made By AKSHAY PARAKH.
+			goto, exit
+		}
+			else
+				goto, exit
 	}
 	return
 }
-Exit:
-	msgbox Closed
-	ExitApp

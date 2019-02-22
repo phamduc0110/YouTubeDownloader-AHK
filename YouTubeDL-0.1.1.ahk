@@ -1,5 +1,5 @@
-﻿#NoEnv 
-;#Warn 
+#NoEnv 
+#Warn 
 SendMode Input 
 SetWorkingDir %A_ScriptDir%  
 #SingleInstance Force 

@@ -9,7 +9,7 @@ This is a AHK Script for downloading videos and music from YouTube.
 
 It will first check if you are connected to Internet, if not script will terminate itself.
 
-Currently script only works for 720p,1080p and mp3 (240kbps) for only.
+Currently script only works for 720p,1080p and mp3 (240kbps+) for only.
 
 
 ## Prerequisites

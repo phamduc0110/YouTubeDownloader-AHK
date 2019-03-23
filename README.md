@@ -74,13 +74,8 @@ Copy all 3 files in same folder (Script won't work if these files are not in sam
 ```
   Enter the video URL to download and select between video/audio.
   ```
-  
-**STEP 3:**
-```
-  Choose format (Video/Audio) to download.
-  ```
  
-**STEP 4:** 
+**STEP 3:** 
 ```
   Check the download progress and ETA on the GUI.
   ```

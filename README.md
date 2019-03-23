@@ -1,7 +1,7 @@
 # YouTubeDownloader-AHK
 A lite application to download video and audio from YouTube in maximum quality available.
 
-<a href="https://i.giphy.com/media/ZgTz68lsuMQE7GvWdM/source"><img src="https://i.giphy.com/media/ZgTz68lsuMQE7GvWdM/source.gif" title="YouTube Video Downloader 0.1.2"/></a>
+<a href="https://i.giphy.com/media/1wQtjGtlOmjDAm9GXb/source"><img src="https://i.giphy.com/media/1wQtjGtlOmjDAm9GXb/source.gif" title="YouTube Video Downloader 0.2.0"/></a>
 
 ## Getting Started
 
@@ -13,9 +13,7 @@ Currently script only works for 720p,1080p and mp3 (240kbps+) only.
 
 
 ## Prerequisites
-```
-You don't need these if you are using executable, everything is included in the package.
-```
+
 Things you need to install for this script to work 
 
 ```
@@ -26,8 +24,6 @@ Things you need to install for this script to work
 ```
 
 ## Installing
-
- * **If you are using the executable just run it and skip below steps**
  
  **STEP 1 :**
   
@@ -81,21 +77,20 @@ Copy all 3 files in same folder (Script won't work if these files are not in sam
   
 **STEP 3:**
 ```
-  After Metadata is imported 
-  Select the path to save the video.
-  Example: ‪E:\Videos\Video Downloader
-  (If you don't select any folder, the video will be saved to Desktop)
+  Choose format (Video/Audio) to download.
   ```
  
 **STEP 4:** 
 ```
-  Check the download progress on the opened command prompt window.
+  Check the download progress and ETA on the GUI.
   ```
+ **Video will be saved in the same folder in which script is present.**
+ 
 ### Future Scope
 
 * Adding option to select quality of video and audio.
 
-* Adding GUI showing download progress.
+* Adding option to save the location for the video to be downloaded
 
 * Improving GUI of application.
 
@@ -104,10 +99,11 @@ Copy all 3 files in same folder (Script won't work if these files are not in sam
 
 * [AutoHotkey](https://www.autohotkey.com/) - Language Used
 * [SciTE4AHK](http://fincs.ahk4.net/scite4ahk/) - Editor Used
+* [CodeQuickTester](https://github.com/G33kDude/CodeQuickTester/) - Tester Used
 
 ### Versioning
 
-* Current Version 0.1.2
+* Current Stable Version Release 0.2.0
 
 ### Authors
 

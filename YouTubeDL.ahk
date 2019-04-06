@@ -876,7 +876,7 @@ CheckPrerequisites:
 
 ;Gui, Font,cWhite
 ;Gui,color,f4ffff
-ver=v0.2.0
+ver=v0.4.0							;;;;;;;;;;;;;VERSION
 Gui, Add, Text, , Enter the link of video :	
 Gui, Add, Edit, hwndurl Y+10 w245 h19 vUrl
 Gui, Add, Radio,hwndType y+13 w103 h13 vVid , Video (mp4/mkv)

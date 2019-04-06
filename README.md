@@ -1,15 +1,13 @@
 # YouTubeDownloader-AHK
 A lite application to download video and audio from YouTube in maximum quality available.
 
-<a href="https://i.giphy.com/media/1wQtjGtlOmjDAm9GXb/source"><img src="https://i.giphy.com/media/1wQtjGtlOmjDAm9GXb/source.gif" title="YouTube Video Downloader 0.2.0"/></a>
+<a href="https://i.giphy.com/media/LMhdLviuqZ889kJelc/source"><img src="https://i.giphy.com/media/LMhdLviuqZ889kJelc/source.gif" title="YouTube Video Downloader 0.4.0"/></a>
 
 ## Getting Started
 
-This is a AHK Script for downloading videos and music from YouTube.
+This is a AHK Script for downloading videos and music from YouTube and other websites.
 
-It will first check if you are connected to Internet, if not script will terminate itself.
-
-Currently script only works for 720p,1080p and mp3 (240kbps+) only.
+[*Total 1094 domains supported*](https://github.com/AkshayCraZzY/YouTubeDownloader-AHK/blob/master/SupportedSites.md)
 
 
 ## Prerequisites
@@ -21,6 +19,7 @@ Things you need to install for this script to work
 ⚫ YouTubeDL.ahk (Main script)
 ⚫ FFmpeg.exe
 ⚫ youtube-dl.exe
+⚫ phantomjs.exe (Optional - Only needed for webpages with JavaScript)
 ```
 
 ## Installing
@@ -41,6 +40,10 @@ Things you need to install for this script to work
   
 [Download youtube-dl](https://github.com/AkshayCraZzY/YouTubeDownloader-AHK/raw/master/youtube-dl.exe)
 
+Download phantomjs (Needed only for webpages which requires native JS extraction) ***- Optional*** 
+
+[Download phantomjs](https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-windows.zip)
+  
   
 [Code For YouTubeDL.ahk](https://raw.githubusercontent.com/AkshayCraZzY/YouTubeDownloader-AHK/master/YouTubeDL.ahk)
 
@@ -61,6 +64,7 @@ Copy all 3 files in same folder (Script won't work if these files are not in sam
    YouTubeDL.ahk
    FFmpeg.exe
    youtube-dl.exe
+   phantomjs.exe (Optional)
    ```
 
 ## Running the Script
@@ -75,20 +79,21 @@ Copy all 3 files in same folder (Script won't work if these files are not in sam
   Enter the video URL to download and select between video/audio.
   ```
  
-**STEP 3:** 
+ **STEP 3:** 
 ```
-  Check the download progress and ETA on the GUI.
+  Select the output folder to save the video and check if you want Fast Mode 
+  
+  If Fast Mode is checked skip STEP 4
+  
   ```
- **Video will be saved in the same folder in which script is present.**
+  ***Fast Mode - Skips the metadata import process required for choosing the quality for download instead it always downloads best quality avaiable (Works only for Youtube).***
  
-### Future Scope
-
-* Adding option to select quality of video and audio.
-
-* Adding option to save the location for the video to be downloaded
-
-* Improving GUI of application.
-
+**STEP 4:** 
+```
+  Wait for video parsing process to complete and select the quality in which you want to download.
+  
+ 
+  ```
 
 ### Built With
 
@@ -98,7 +103,7 @@ Copy all 3 files in same folder (Script won't work if these files are not in sam
 
 ### Versioning
 
-* Current Stable Version Release 0.2.0
+* Current Stable Version Release 0.4.0
 
 ### Authors
 

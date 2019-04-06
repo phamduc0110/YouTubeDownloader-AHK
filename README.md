@@ -54,7 +54,6 @@ Download phantomjs (Needed only for webpages which requires native JS extraction
      after that select New > AutoHotkey Script
   
   2. Copy the code and paste it into the new script and save it as YouTubeDL.ahk
-  
  ```
  
  **STEP 3:**
@@ -83,16 +82,13 @@ Copy all 3 files in same folder (Script won't work if these files are not in sam
 ```
   Select the output folder to save the video and check if you want Fast Mode 
   
-  If Fast Mode is checked skip STEP 4
-  
+  If Fast Mode is checked skip STEP 4 
   ```
   ***Fast Mode - Skips the metadata import process required for choosing the quality for download instead it always downloads best quality avaiable (Works only for Youtube).***
  
 **STEP 4:** 
 ```
-  Wait for video parsing process to complete and select the quality in which you want to download.
-  
- 
+  Wait for video parsing process to complete and select the quality in which you want to download. 
   ```
 
 ### Built With

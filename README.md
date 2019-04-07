@@ -1,5 +1,5 @@
 # YouTubeDownloader-AHK
-A lite application to download video and audio from YouTube in maximum quality available.
+A lite application to download video and audio from  YouTube and other websites.
 
 <a href="https://i.giphy.com/media/LMhdLviuqZ889kJelc/source"><img src="https://i.giphy.com/media/LMhdLviuqZ889kJelc/source.gif" title="YouTube Video Downloader 0.4.0"/></a>
 
@@ -25,27 +25,19 @@ Things you need to install for this script to work
 ## Installing
  
  **STEP 1 :**
-  
- Download AHK (Required for running the script)
  
-[Download AutoHotkey](https://www.autohotkey.com/download/ahk-install.exe) and install it.
+[Download AutoHotkey](https://www.autohotkey.com/download/ahk-install.exe) and install it. (Required for running the script)
 
 **STEP 2 :**
-
-  Download FFmpeg (Required for conversion and combining video and audio of video)
   
-[Download FFmpeg](https://drive.google.com/uc?export=download&id=1jubMVolwxrZYRkVTspM9yyELNke-Mo85)
-
-  Download youtube-dl (Required for downloading videos and audio)
+[Download FFmpeg](https://drive.google.com/uc?export=download&id=1jubMVolwxrZYRkVTspM9yyELNke-Mo85) (Required for conversion and combining video and audio of video)
   
-[Download youtube-dl](https://github.com/AkshayCraZzY/YouTubeDownloader-AHK/raw/master/youtube-dl.exe)
+[Download youtube-dl](https://github.com/AkshayCraZzY/YouTubeDownloader-AHK/raw/master/youtube-dl.exe) (Required for downloading videos and audio)
 
-Download phantomjs (Needed only for webpages which requires native JS extraction) ***- Optional*** 
-
-[Download phantomjs](https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-windows.zip)
+***Optional -*** [Download phantomjs](https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-windows.zip) (Needed only for webpages which requires native JS extraction) 
   
   
-[Code For YouTubeDL.ahk](https://raw.githubusercontent.com/AkshayCraZzY/YouTubeDownloader-AHK/master/YouTubeDL.ahk)
+Copy the code from [YouTubeDL.ahk](https://raw.githubusercontent.com/AkshayCraZzY/YouTubeDownloader-AHK/master/YouTubeDL.ahk)
 
    ```
   After installing AutoHotkey
@@ -92,9 +84,9 @@ Copy all 3 files in same folder (Script won't work if these files are not in sam
   ```
 
 ### Built With
-
+* [youtube-dl](https://github.com/ytdl-org/youtube-dl) - Extractor Used
 * [AutoHotkey](https://www.autohotkey.com/) - Language Used
-* [SciTE4AHK](http://fincs.ahk4.net/scite4ahk/) - Editor Used
+* [SciTE4AHK](https://github.com/fincs/SciTE4AutoHotkey) - Editor Used
 * [CodeQuickTester](https://github.com/G33kDude/CodeQuickTester/) - Tester Used
 
 ### Versioning
@@ -107,4 +99,4 @@ Copy all 3 files in same folder (Script won't work if these files are not in sam
 
 ### License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the License - see the [LICENSE.md](LICENSE.md) file for details

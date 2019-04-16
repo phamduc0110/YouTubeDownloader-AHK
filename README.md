@@ -1,7 +1,7 @@
 # YouTubeDownloader-AHK
 A lite application to download video and audio from  YouTube and other websites.
 
-<a href="https://i.giphy.com/media/LMhdLviuqZ889kJelc/source"><img src="https://i.giphy.com/media/LMhdLviuqZ889kJelc/source.gif" title="YouTube Video Downloader 0.4.0"/></a>
+<a href="https://i.giphy.com/media/eNvfKAsuq1YxTLNWbc/source"><img src="https://i.giphy.com/media/eNvfKAsuq1YxTLNWbc/source.gif" title="YouTube Video Downloader 0.4.0"/></a>
 
 ## Getting Started
 

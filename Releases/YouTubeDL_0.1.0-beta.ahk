@@ -3,7 +3,7 @@
 SendMode Input 
 SetWorkingDir %A_ScriptDir%  
 #SingleInstance Force 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;CHECK INTERNET ROUTINE
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;CHECK INTERNET ROUTINE
 CheckNet:
 {
 /*

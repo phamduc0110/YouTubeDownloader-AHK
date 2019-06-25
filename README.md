@@ -32,7 +32,7 @@ Things you need to install for this script to work
   
 [Download FFmpeg](https://drive.google.com/uc?export=download&id=1jubMVolwxrZYRkVTspM9yyELNke-Mo85) (Required for conversion and combining video and audio of video)
   
-[Download youtube-dl](https://github.com/AkshayCraZzY/YouTubeDownloader-AHK/raw/master/youtube-dl.exe) (Required for downloading videos and audio)
+[Download youtube-dl](https://yt-dl.org/latest/youtube-dl.exe) (Required for downloading videos and audio)
 
 ***Optional -*** [Download phantomjs](https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-windows.zip) (Needed only for webpages which requires native JS extraction) 
   

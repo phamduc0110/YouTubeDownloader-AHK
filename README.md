@@ -16,11 +16,14 @@
 ### 🏠 [Homepage](https://akshaycrazzy.github.io/YouTubeDownloader-AHK/)
 
 </b>
+
 <b align="center">
+  
    This is a AHK Script for downloading videos and music from YouTube and other websites.
-    <img src="https://i.giphy.com/media/U6vtkihY0IoQ0ikEDm/source.gif"  />
+    <img align="center" src="https://i.giphy.com/media/U6vtkihY0IoQ0ikEDm/source.gif"  />
     <a href="https://akshaycrazzy.github.io/YouTubeDownloader-AHK/">
     </a> 
+    
  </b>
    
 ## Install

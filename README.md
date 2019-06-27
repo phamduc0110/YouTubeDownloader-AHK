@@ -1,5 +1,5 @@
 <h1 align="center">Welcome to YouTubeDownloader-AHK 👋</h1>
-<p>
+<p align="center">
   <img src="https://img.shields.io/badge/version-v0.5.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/AkshayCraZzY/YouTubeDownloader-AHK/blob/master/README.md">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" target="_blank" />
@@ -11,10 +11,11 @@
     <img alt="Twitter: Akshayparakh98" src="https://img.shields.io/twitter/follow/Akshayparakh98.svg?style=social" target="_blank" />
   </a>
 </p>
-
-> This is a AHK Script for downloading videos and music from YouTube and other websites.
+<b align="center">
+  This is a AHK Script for downloading videos and music from YouTube and other websites.
 
 ### 🏠 [Homepage](https://akshaycrazzy.github.io/YouTubeDownloader-AHK/)
+</b>
 
 ## Install
 

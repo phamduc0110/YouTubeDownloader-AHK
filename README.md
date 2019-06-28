@@ -13,16 +13,19 @@
 </p>
 <b align="center">
   
-### 🏠 [Homepage](https://akshaycrazzy.github.io/YouTubeDownloader-AHK/)
+## 🏠 [Homepage](https://akshaycrazzy.github.io/YouTubeDownloader-AHK/)
 
-  [*Total 1094 domains supported*](https://github.com/AkshayCraZzY/YouTubeDownloader-AHK/blob/master/SupportedSites.md)
+  ### [*Total 1094 domains supported*](https://github.com/AkshayCraZzY/YouTubeDownloader-AHK/blob/master/SupportedSites.md)
   
+  This is a AHK Script for downloading videos and music from YouTube and other websites.
+ </b> 
+<p align="center">
      This is a AHK Script for downloading videos and music from YouTube and other websites.
        <img align="center" src="https://i.giphy.com/media/U6vtkihY0IoQ0ikEDm/source.gif"/>
        <a href="https://akshaycrazzy.github.io/YouTubeDownloader-AHK/">
        </a>
   
-  </b>   
+  </p>   
    
 # Install
 

@@ -19,9 +19,9 @@
   
  </b> 
  
- <t align="center">
+ <p align="center">
     This is a AHK Script for downloading videos and music from YouTube and other websites.
- </t> 
+ </p> 
  
  
 <p align="center">

@@ -101,6 +101,13 @@
 * Twitter: [@Akshayparakh98](https://twitter.com/Akshayparakh98)
 * Github: [@AkshayCraZzY](https://github.com/AkshayCraZzY)
 
+# Built With
+
+* [youtube-dl](https://github.com/ytdl-org/youtube-dl) - Extractor Used
+* [AutoHotkey](https://www.autohotkey.com/) - Language Used
+* [SciTE4AHK](https://github.com/fincs/SciTE4AutoHotkey) - Editor Used
+* [CodeQuickTester](https://github.com/G33kDude/CodeQuickTester/) - Tester Used
+
 # 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://twitter.com/Akshayparakh98).

@@ -25,7 +25,7 @@
  
  
 <p align="center">
-     This is a AHK Script for downloading videos and music from YouTube and other websites.
+     This is basically a GUI wrapper for python based youtube-dl project.
        <img align="center" src="https://i.giphy.com/media/U6vtkihY0IoQ0ikEDm/source.gif"/>
        <a href="https://akshaycrazzy.github.io/YouTubeDownloader-AHK/">
        </a>

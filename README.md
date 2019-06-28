@@ -103,11 +103,10 @@
 
 # Built With
 
-* [youtube-dl](https://github.com/ytdl-org/youtube-dl) - Extractor Used
-* [AutoHotkey](https://www.autohotkey.com/) - Language Used
-* [SciTE4AHK](https://github.com/fincs/SciTE4AutoHotkey) - Editor Used
-* [CodeQuickTester](https://github.com/G33kDude/CodeQuickTester/) - Tester Used
-
+* Extractor Used - [youtube-dl](https://github.com/ytdl-org/youtube-dl)
+* Language Used - [AutoHotkey](https://www.autohotkey.com/)
+* Editor Used - [SciTE4AHK](https://github.com/fincs/SciTE4AutoHotkey)
+* Tester Used - [CodeQuickTester](https://github.com/G33kDude/CodeQuickTester/)
 # 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://twitter.com/Akshayparakh98).

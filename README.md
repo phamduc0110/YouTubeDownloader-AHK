@@ -15,7 +15,7 @@
   
 ### 🏠 [Homepage](https://akshaycrazzy.github.io/YouTubeDownloader-AHK/)
 
-</b>
+
 
   <b align="center">
   
@@ -24,7 +24,7 @@
        <a href="https://akshaycrazzy.github.io/YouTubeDownloader-AHK/">
        </a>
   
-   </b>
+   
    
 ## Install
 

@@ -28,9 +28,39 @@
    
 ## Install
 
-```sh
-install here
-```
+  **STEP 1 :**
+ 
+  [Download AutoHotkey](https://www.autohotkey.com/download/ahk-install.exe) and install it. (Required for running the script)
+
+  **STEP 2 :**
+  
+  [Download FFmpeg](https://drive.google.com/uc?export=download&id=1jubMVolwxrZYRkVTspM9yyELNke-Mo85) (Required for conversion and combining video and audio of video)
+  
+  [Download youtube-dl](https://yt-dl.org/latest/youtube-dl.exe) (Required for downloading videos and audio)
+
+  ***Optional -*** [Download phantomjs](https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-windows.zip) (Needed only for webpages which requires native JS extraction) 
+  
+  
+  Copy the code from [YouTubeDL.ahk](https://raw.githubusercontent.com/AkshayCraZzY/YouTubeDownloader-AHK/master/YouTubeDL.ahk)
+
+   ```
+    After installing AutoHotkey
+  
+    1. Create a empty AHK script by right clicking anywhere on Desktop/Any Folder 
+      after that select New > AutoHotkey Script
+  
+    2. Copy the code and paste it into the new script and save it as YouTubeDL.ahk
+ ```
+ 
+  **STEP 3:**
+
+  Copy all 3 files in same folder (Script won't work if these files are not in same folder)
+   ```
+    YouTubeDL.ahk
+    FFmpeg.exe
+    youtube-dl.exe
+    phantomjs.exe (Optional)
+   ```
 
 ## Usage
 

@@ -26,7 +26,7 @@
   
   </b>   
    
-## Install
+# Install
 
   **STEP 1 :**
  
@@ -62,7 +62,8 @@
     phantomjs.exe (Optional)
    ```
 
-## Usage
+# Usage
+
 **STEP 1 :**
  ```
   Double click on the YouTubeDL.ahk
@@ -87,18 +88,18 @@
   ```
 
 
-## Author
+# Author
 
 👤 **Akshay Parakh**
 
 * Twitter: [@Akshayparakh98](https://twitter.com/Akshayparakh98)
 * Github: [@AkshayCraZzY](https://github.com/AkshayCraZzY)
 
-## 🤝 Contributing
+# 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://twitter.com/Akshayparakh98).
 
-## Show your support
+# Show your support
 
 Give a ⭐️ if this project helped you!
 
@@ -106,7 +107,7 @@ Give a ⭐️ if this project helped you!
   <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
 </a>
 
-## 📝 License
+# 📝 License
 
 Copyright © 2019 [Akshay Parakh](https://github.com/AkshayCraZzY).<br />
 This project is [MIT](https://github.com/AkshayCraZzY/YouTubeDownloader-AHK/blob/master/LICENSE.md) licensed.

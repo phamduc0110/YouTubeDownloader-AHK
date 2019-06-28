@@ -18,12 +18,11 @@
 </b>
 
 <b align="center">
-    <img align="center" src="https://i.giphy.com/media/U6vtkihY0IoQ0ikEDm/source.gif"  />
+   This is a AHK Script for downloading videos and music from YouTube and other websites.
+    <img align="center" src="https://i.giphy.com/media/U6vtkihY0IoQ0ikEDm/source.gif"/>
     <a href="https://akshaycrazzy.github.io/YouTubeDownloader-AHK/">
-    </a> 
-    
-       This is a AHK Script for downloading videos and music from YouTube and other websites.
-    
+    </a>
+    </img>
  </b>
    
 ## Install

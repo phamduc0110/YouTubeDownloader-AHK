@@ -63,16 +63,29 @@
    ```
 
 ## Usage
-
-```sh
-usage here
+**STEP 1 :**
+ ```
+  Double click on the YouTubeDL.ahk
+  ```
+ 
+**STEP 2 :**
 ```
-
-## Run tests
-
-```sh
-test here
+  Enter the video URL to download and select between video/audio.
+  ```
+ 
+ **STEP 3:** 
 ```
+  Select the output folder to save the video and check if you want Fast Mode 
+  
+  If Fast Mode is checked skip STEP 4 
+  ```
+  ***Fast Mode - Skips the metadata import process required for choosing the quality for download instead it always downloads best quality avaiable (Works only for Youtube).***
+ 
+**STEP 4:** 
+```
+  Wait for video parsing process to complete and select the quality in which you want to download. 
+  ```
+
 
 ## Author
 
